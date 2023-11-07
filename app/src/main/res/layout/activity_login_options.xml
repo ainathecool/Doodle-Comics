@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registrationbg"
+    tools:context=".LoginOptions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textColor="#00433D"
+        android:shadowColor="#DF706F6F"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="30dp"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:id="@+id/loginWithUsername"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/login_with_username"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/pink_blue_button" />
+    <TextView
+        android:id="@+id/loginWithEmail"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/login_with_email"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/pink_blue_button" />
+    <TextView
+        android:id="@+id/loginWithNumber"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/login_with_number"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/pink_blue_button" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="@string/dont_have_an_account"
+        android:textSize="16sp"
+        android:textColor="#00433D"
+        android:shadowRadius="8"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/signupScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#E91E63"
+        android:shadowRadius="8"
+        android:gravity="center"/>
+
+
+</LinearLayout>

@@ -17,4 +17,15 @@
     <string name="_0">0</string>
     <string name="didnt_recieve_otp">Didn\'t Receive OTP?</string>
     <string name="resendOTP">Resend Code</string>
+    <string name="login_with_username">Login with Username</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="login_with_number">Login with Number</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="we_ll_send_you_a_verification_code_on_your_email">We\'ll send you a verification code on your email.</string>
+    <string name="send">Send</string>
+    <string name="verify">Verify</string>
+    <string name="enter_the_code">Enter the 06 digit code we shared in your email.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset">Reset</string>
 </resources>

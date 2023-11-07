@@ -13,6 +13,27 @@
         android:theme="@style/Theme.DoodleComics_20k1688_20i0665"
         tools:targetApi="31">
         <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordVerificationCode"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithNumber"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithEmail"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithUsername"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOptions"
+            android:exported="false" />
+        <activity
             android:name=".VerifyOTP"
             android:exported="false" />
         <activity
