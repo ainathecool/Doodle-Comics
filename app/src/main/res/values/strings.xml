@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DoodleComics_20k1688_20i0665</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="sign_up_with_username">Sign Up With Username</string>
+    <string name="sign_up_with_email">Sign Up With Email</string>
+    <string name="sign_up_with_number">Sign Up With Number</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
 </resources>
