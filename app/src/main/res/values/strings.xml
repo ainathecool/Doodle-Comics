@@ -28,4 +28,10 @@
     <string name="enter_the_code">Enter the 06 digit code we shared in your email.</string>
     <string name="reset_password">Reset Password</string>
     <string name="reset">Reset</string>
+    <string name="ExploreComics">Explore Comics</string>
+    <string name="ExploreArtists">Explore Artists</string>
+    <string name="challenge_of_the_day">Challenge Of The Day</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="comic_name">Comic Name</string>
+    <string name="comic_cover">Comic Cover</string>
 </resources>
