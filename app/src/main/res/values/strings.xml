@@ -6,4 +6,15 @@
     <string name="sign_up_with_number">Sign Up With Number</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="login">Login</string>
+    <string name="email">Email...</string>
+    <string name="password">Password...</string>
+    <string name="number">Number...</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirmPassword">Confirm Password...</string>
+    <string name="username">Username...</string>
+    <string name="verify_OTP">Verify OTP</string>
+    <string name="_0">0</string>
+    <string name="didnt_recieve_otp">Didn\'t Receive OTP?</string>
+    <string name="resendOTP">Resend Code</string>
 </resources>
