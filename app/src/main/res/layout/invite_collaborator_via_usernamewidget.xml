@@ -31,7 +31,7 @@
         android:layout_marginTop="1dp"
         android:background="@drawable/textfieldbg"
         android:gravity="center"
-        android:text="Email"
+        android:text="Username"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold" />
