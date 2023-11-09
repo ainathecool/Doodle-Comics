@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homepagebg"
+    tools:context=".Search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/homepageDrawer"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/draweropen_icon" />
+
+        <TextView
+            android:id="@+id/profileScreen"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:background="@drawable/profile_icon"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/searchbarbg"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="24dp"
+            android:paddingEnd="15dp"
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:text="@string/search_titles_artists_genres"
+            android:hint="@string/dots"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/searchIcon"
+            android:layout_width="36dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/searchbarsearch_icon"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ComicGallery"
+            android:textSize="20sp"
+            android:textColor="#FEFFFF"
+            android:shadowColor="#DF706F6F"
+            android:shadowDx="4"
+            android:shadowDy="8"
+            android:shadowRadius="8"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/filterIcon"
+            android:layout_width="37dp"
+            android:layout_height="35dp"
+            android:background="@drawable/filtersearch_icon"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/sharedComicsCol01"
+            android:layout_width="160dp"
+            android:layout_height="250dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:padding="8dp"
+            android:scrollbars="vertical" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/sharedComicsCol02"
+            android:layout_width="160dp"
+            android:layout_height="250dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:padding="8dp"
+            android:scrollbars="vertical" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/createNewCollabComicButton"
+        android:layout_width="190dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/create_new_collab_comic"/>
+
+
+</LinearLayout>
