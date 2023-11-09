@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_newComic"
+            android:icon="@drawable/addcomicicon"
+            android:title="@string/create_new_comic" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notifications_icon"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/nav_challenges"
+            android:icon="@drawable/challengesicon"
+            android:title="@string/challenges" />
+        <item
+            android:id="@+id/nav_collab"
+            android:icon="@drawable/collaborationicon"
+            android:title="@string/collaboration" />
+        <item
+            android:id="@+id/nav_remix"
+            android:icon="@drawable/remix_icon"
+            android:title="@string/remix_comics" />
+        <item
+            android:id="@+id/nav_templates"
+            android:icon="@drawable/templates_icon"
+            android:title="@string/comic_templates" />
+    </group>
+</menu>

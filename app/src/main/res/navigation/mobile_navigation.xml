@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/nav_home"
+        android:name="com.project.doodlecomics_20k1688_20i0665.Homepage"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_homepage" />
+
+    <activity
+        android:id="@+id/nav_createNewComic"
+        android:name="com.project.doodlecomics_20k1688_20i0665.CreateNewComic"
+         android:label="@string/create_new_comic"
+        tools:layout="@layout/activity_create_new_comic" />
+
+    <activity
+        android:id="@+id/nav_search"
+        android:name="com.project.doodlecomics_20k1688_20i0665.Search"
+        android:label="@string/search"
+        tools:layout="@layout/activity_search" />
+    <activity
+        android:id="@+id/nav_notifications"
+        android:name="com.project.doodlecomics_20k1688_20i0665.Notifications"
+        android:label="@string/notifications"
+        tools:layout="@layout/activity_notifications" />
+    <activity
+        android:id="@+id/nav_challenges"
+        android:name="com.project.doodlecomics_20k1688_20i0665.ComicChallenge"
+        android:label="@string/challenges"
+        tools:layout="@layout/activity_comic_challenge" />
+
+    <activity
+        android:id="@+id/nav_collab"
+        android:name="com.project.doodlecomics_20k1688_20i0665.Collaboration"
+        android:label="@string/collaboration"
+        tools:layout="@layout/activity_collaboration"/>
+    <activity
+        android:id="@+id/nav_remix"
+        android:name="com.project.doodlecomics_20k1688_20i0665.RemixComic"
+        android:label="@string/remix_comics"
+        tools:layout="@layout/activity_remix_comic"/>
+
+    <activity
+        android:id="@+id/nav_templates"
+        android:name="com.project.doodlecomics_20k1688_20i0665.Templates"
+        android:label="@string/comic_templates"
+        tools:layout="@layout/activity_templates"/>
+</navigation>
