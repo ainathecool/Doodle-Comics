@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/collaborationoptionsbg"
+    >
+    <!-- text in the middle of the blue box background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invite Collaborator"
+        android:textSize="27dp"
+        android:shadowColor="#DF706F6F"
+        android:shadowDx="20"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <!-- button to export comic strip as a pdf -->
+
+    <TextView
+        android:id="@+id/email_button3"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/textfieldbg"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textfieldbg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="View"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Comment"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/username_button2"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Send Invite"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/pink_blue_button" />
+
+</LinearLayout>
