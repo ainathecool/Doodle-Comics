@@ -61,4 +61,7 @@
     <string name="filter">Filter</string>
     <string name="popularity">Popularity</string>
     <string name="date">Date</string>
+    <string name="createComic">Create Comic</string>
+    <string name="createStrip">Create Strip</string>
+    <string name="update">Update</string>
 </resources>
