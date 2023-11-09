@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/collaborationacceptedbg"
+    tools:context=".CollaborationCommentView">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="210dp">
+
+
+        <TextView
+            android:id="@+id/commentViewButton"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/comment_view"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:shadowColor="#DFE8E6E6"
+            android:shadowDx="10"
+            android:shadowDy="8"
+            android:shadowRadius="8"
+            android:background="@drawable/pink_blue_button" />
+
+
+        <TextView
+            android:id="@+id/comicViewButton"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/comic_view"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/pink_blue_button" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/commentViewChat"
+        android:layout_width="208dp"
+        android:layout_height="200dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:hint="@string/leave_a_comment_for_your_collaborative_comic"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg5"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="95dp"
+            android:textSize="12sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/artist_avatar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile_icon"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
