@@ -65,4 +65,10 @@
     <string name="createStrip">Create Strip</string>
     <string name="update">Update</string>
     <string name="startDoodling">Start Doodling</string>
+    <string name="artist_name_accepted">Artist Name accepted your collaboration request!</string>
+    <string name="start_collab">Start Collaborating</string>
+    <string name="comment_view">Comment View</string>
+    <string name="comic_view">Comic View</string>
+    <string name="leave_a_comment_for_your_collaborative_comic">Leave a comment for your collaborative comic</string>
+    <string name="comment">comment...</string>
 </resources>
