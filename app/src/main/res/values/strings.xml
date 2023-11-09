@@ -40,4 +40,9 @@
     <string name="enter_comic_genre">Enter Comic Genre:</string>
     <string name="enter_comic_description">"Enter Comic Description: "</string>
     <string name="upload_comic_cover">Upload Comic Cover:</string>
+    <string name="dots">...</string>
+    <string name="SharedComics">Shared Comics</string>
+    <string name="ComicGallery">Comic Gallery</string>
+    <string name="search_titles_artists_genres">Search titles, artists, genres...</string>
+    <string name="remixComic">Remix Comic</string>
 </resources>
