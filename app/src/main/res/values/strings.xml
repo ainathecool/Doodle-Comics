@@ -34,4 +34,10 @@
     <string name="artist_name">Artist Name</string>
     <string name="comic_name">Comic Name</string>
     <string name="comic_cover">Comic Cover</string>
+    <string name="create_strip">Create Strip</string>
+    <string name="CreateNewComicStrip">Create a new comic strip</string>
+    <string name="enter_comic_title">Enter Comic Title:</string>
+    <string name="enter_comic_genre">Enter Comic Genre:</string>
+    <string name="enter_comic_description">"Enter Comic Description: "</string>
+    <string name="upload_comic_cover">Upload Comic Cover:</string>
 </resources>
