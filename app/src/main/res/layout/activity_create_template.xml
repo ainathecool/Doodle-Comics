@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/templates_bg"
+    tools:context=".CreateTemplate">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/bg3">
+
+        <TextView
+            android:id="@+id/templatetool1"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templatetool1"/>
+
+        <TextView
+            android:id="@+id/templatetool2"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templatetool2"/>
+
+        <TextView
+            android:id="@+id/templatetool3"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templatetool3"/>
+
+        <TextView
+            android:id="@+id/templatetool4"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templatetool4"/>
+
+        <TextView
+            android:id="@+id/templatetool5"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/templatetool5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:hint="@string/Title"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:background="@drawable/bg04"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="220dp"
+            android:layout_height="280dp"
+            android:background="@drawable/canvas"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:background="@drawable/savetemplate"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -64,4 +64,5 @@
     <string name="createComic">Create Comic</string>
     <string name="createStrip">Create Strip</string>
     <string name="update">Update</string>
+    <string name="startDoodling">Start Doodling</string>
 </resources>
