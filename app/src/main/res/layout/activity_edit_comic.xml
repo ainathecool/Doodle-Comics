@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mycomicbg"
+    tools:context=".EditComic">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="570dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:background="@drawable/createcomicstripbg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/Title"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#E91E63"
+                android:shadowColor="#DFE8E7E7"
+                android:shadowDx="4"
+                android:shadowDy="8"
+                android:shadowRadius="8"
+                android:gravity="start"/>
+
+            <TextView
+                android:id="@+id/uploadcComicButton"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:background="@drawable/upload02"/>
+
+
+            <TextView
+                android:id="@+id/collabComicButton"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:background="@drawable/collab02"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg2">
+
+            <TextView
+                android:id="@+id/comicBubble01"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb01"/>
+
+            <TextView
+                android:id="@+id/comicBubble02"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb02"/>
+
+            <TextView
+                android:id="@+id/comicBubble03"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb03"/>
+
+            <TextView
+                android:id="@+id/comicBubble04"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb04"/>
+
+            <TextView
+                android:id="@+id/comicBubble05"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb05"/>
+
+            <TextView
+                android:id="@+id/comicBubble06"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/cb06"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/undoButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/undo"/>
+            <TextView
+                android:id="@+id/redoButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/redo"/>
+            <TextView
+                android:id="@+id/deleteButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/delete"/>
+            <TextView
+                android:id="@+id/exportButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/export"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/canvas"
+            android:layout_width="220dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/canvas"/>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg2">
+
+            <TextView
+                android:id="@+id/tool1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool1"/>
+
+            <TextView
+                android:id="@+id/tool2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool2"/>
+
+            <TextView
+                android:id="@+id/tool3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool3"/>
+
+            <TextView
+                android:id="@+id/tool4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool4"/>
+
+            <TextView
+                android:id="@+id/tool5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool5"/>
+
+            <TextView
+                android:id="@+id/tool6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/tool6"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/createComic"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="@string/createComic"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/pink_blue_button" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
