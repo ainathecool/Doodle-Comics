@@ -13,6 +13,27 @@
         android:theme="@style/Theme.DoodleComics_20k1688_20i0665"
         tools:targetApi="31">
         <activity
+            android:name=".FilterSearch"
+            android:exported="false" />
+        <activity
+            android:name=".ComicSearchResultDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".FilteredByDate"
+            android:exported="false" />
+        <activity
+            android:name=".FilterByPopularity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByArtist"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByTitle"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByGenre"
+            android:exported="false" />
+        <activity
             android:name=".RemixComicStrip"
             android:exported="false" />
         <activity

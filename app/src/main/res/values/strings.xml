@@ -45,4 +45,20 @@
     <string name="ComicGallery">Comic Gallery</string>
     <string name="search_titles_artists_genres">Search titles, artists, genres...</string>
     <string name="remixComic">Remix Comic</string>
+    <string name="GenreComedy">Genre Comedy</string>
+    <string name="SearchResults">Search Results</string>
+    <string name="Title">Title</string>
+    <string name="Arist">artist...</string>
+    <string name="Date">Publish Date</string>
+    <string name="Likes">Likes: value</string>
+    <string name="Remixes">Remixes: value</string>
+    <string name="FilterByPopularity">Filtered By Popularity</string>
+    <string name="FilterByDate">Filtered By Date</string>
+    <string name="Artist">Artist: value</string>
+    <string name="Genre">Genre: value</string>
+    <string name="Description">Description: value</string>
+    <string name="filter_search">Filter Search</string>
+    <string name="filter">Filter</string>
+    <string name="popularity">Popularity</string>
+    <string name="date">Date</string>
 </resources>
