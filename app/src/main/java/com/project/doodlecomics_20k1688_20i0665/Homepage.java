@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class Homepage extends AppCompatActivity {
 
     TextView homepage;
@@ -16,12 +18,12 @@ public class Homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        homepage = findViewById(R.id.homepageDrawer);
+      homepage = findViewById(R.id.homepageDrawer);
 
         homepage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Homepage.this, NavigationDrawerActivity.class);
+                Intent intent = new Intent(Homepage.this, HomepageDrawer.class);
                 startActivity(intent);
             }
         });

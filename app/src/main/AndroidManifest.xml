@@ -13,6 +13,30 @@
         android:theme="@style/Theme.DoodleComics_20k1688_20i0665"
         tools:targetApi="31">
         <activity
+            android:name=".ChallengeDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".RemixDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".SearchDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".CollaborationDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".NewComicDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationsDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".TemplatesDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageDrawer"
+            android:exported="false" />
+        <activity
             android:name=".LikesAndCommentsNotifications"
             android:exported="false" />
         <activity

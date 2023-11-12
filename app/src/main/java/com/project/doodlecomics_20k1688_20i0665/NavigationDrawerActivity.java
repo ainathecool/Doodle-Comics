@@ -25,9 +25,9 @@ public class NavigationDrawerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityNavigationDrawerBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
+//        binding = ActivityNavigationDrawerBinding.inflate(getLayoutInflater());
+//        setContentView(binding.getRoot());
+//
 //        setSupportActionBar(binding.appBarNavigationDrawer.toolbar);
 //        binding.appBarNavigationDrawer.fab.setOnClickListener(new View.OnClickListener() {
 //            @Override

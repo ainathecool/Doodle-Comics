@@ -75,7 +75,7 @@
 
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/ComicGallery"
             android:textSize="20sp"
@@ -90,6 +90,7 @@
             android:id="@+id/filterIcon"
             android:layout_width="37dp"
             android:layout_height="35dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/filtersearch_icon"/>
 
 

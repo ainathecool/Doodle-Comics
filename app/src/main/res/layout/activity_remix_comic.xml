@@ -4,11 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/remixcomicbg"
     tools:context=".RemixComic">
 
+    <TextView
+        android:id="@+id/homepageDrawer"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/draweropen_icon" />
     <LinearLayout
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="55dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
