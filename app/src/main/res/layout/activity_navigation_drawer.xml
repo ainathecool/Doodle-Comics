@@ -6,12 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    tools:openDrawer="start"
+    android:gravity="start">
 
- <include
-     android:layout_height="match_parent"
-     android:layout_width="match_parent"
-     layout="@layout/activity_splash_screen01"/>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -19,6 +16,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:background="#012D37"
+        app:headerLayout="@layout/nav"
         app:menu="@menu/activity_homepage_navigation_drawer_drawer">
 
     </com.google.android.material.navigation.NavigationView>

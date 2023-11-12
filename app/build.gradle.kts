@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.project.doodlecomics_20k1688_20i0665"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.project.doodlecomics_20k1688_20i0665"
