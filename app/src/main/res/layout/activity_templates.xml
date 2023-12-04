@@ -9,7 +9,7 @@
     tools:context=".Templates">
 
         <TextView
-            android:id="@+id/homepageDrawer"
+            android:id="@+id/templateDrawer"
             android:layout_width="37dp"
             android:layout_height="37dp"
             android:layout_marginStart="15dp"

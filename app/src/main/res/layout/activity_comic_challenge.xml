@@ -8,12 +8,21 @@
     android:background="@drawable/challengebg"
     tools:context=".ComicChallenge">
 
+    <TextView
+        android:id="@+id/homepageDrawer"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/draweropen_icon" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="60dp"
         android:orientation="horizontal">
 
         <TextView
