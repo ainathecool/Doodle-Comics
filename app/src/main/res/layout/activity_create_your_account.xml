@@ -22,24 +22,13 @@
         android:layout_marginStart="30dp"
         android:layout_gravity="start"/>
 
-    <TextView
-        android:id="@+id/signupWithUsername"
-        android:layout_width="220dp"
-        android:layout_height="63dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:text="@string/sign_up_with_username"
-        android:textSize="15sp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:background="@drawable/pink_blue_button" />
+
     <TextView
         android:id="@+id/signupWithEmail"
         android:layout_width="220dp"
         android:layout_height="63dp"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="55dp"
         android:text="@string/sign_up_with_email"
         android:textSize="15sp"
         android:gravity="center"
