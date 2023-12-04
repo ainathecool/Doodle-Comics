@@ -149,11 +149,6 @@
         <activity
             android:name=".Homepage"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ResetPassword"
@@ -177,6 +172,9 @@
             android:name=".LoginOptions"
             android:exported="false" />
         <activity
+            android:name=".VerifyOTPLg"
+            android:exported="false" />
+        <activity
             android:name=".VerifyOTP"
             android:exported="false" />
         <activity
@@ -193,7 +191,12 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen_01"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
