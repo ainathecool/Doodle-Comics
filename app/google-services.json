@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "836815654899",
+    "firebase_url": "https://doodle-comics-default-rtdb.firebaseio.com",
+    "project_id": "doodle-comics",
+    "storage_bucket": "doodle-comics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836815654899:android:1420304dd34dd943910c86",
+        "android_client_info": {
+          "package_name": "com.project.doodlecomics_20k1688_20i0665"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkATVIwwcZ-D-8f69UV6B10I4VoyDoMrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
