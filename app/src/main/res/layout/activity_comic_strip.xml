@@ -29,7 +29,7 @@
             android:gravity="start"/>
 
         <TextView
-            android:id="@+id/uploadcComicButton"
+            android:id="@+id/uploadComicButton"
             android:layout_width="50dp"
             android:layout_height="30dp"
             android:layout_marginStart="120dp"
@@ -65,7 +65,7 @@
             android:layout_marginEnd="15dp"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:background="@drawable/cb01"/>
+            android:background="@drawable/comb01"/>
 
         <TextView
             android:id="@+id/comicBubble02"
@@ -73,7 +73,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:background="@drawable/cb02"/>
+            android:background="@drawable/comb02"/>
 
         <TextView
             android:id="@+id/comicBubble03"
@@ -81,7 +81,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:background="@drawable/cb03"/>
+            android:background="@drawable/comb03"/>
 
         <TextView
             android:id="@+id/comicBubble04"
@@ -89,7 +89,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:background="@drawable/cb04"/>
+            android:background="@drawable/comb04"/>
 
         <TextView
             android:id="@+id/comicBubble05"
@@ -97,7 +97,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:background="@drawable/cb05"/>
+            android:background="@drawable/comb05"/>
 
         <TextView
             android:id="@+id/comicBubble06"
@@ -105,7 +105,7 @@
             android:layout_height="30dp"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:background="@drawable/cb06"/>
+            android:background="@drawable/comb06"/>
 
     </LinearLayout>
 
@@ -148,13 +148,19 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/canvas"
-        android:layout_marginStart="60dp"
+    <FrameLayout
+        android:id="@+id/canvasContainer"
         android:layout_width="290dp"
         android:layout_height="390dp"
-        android:gravity="center"
-        android:background="@drawable/canvas"/>
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/canvas"/>
+
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="320dp"

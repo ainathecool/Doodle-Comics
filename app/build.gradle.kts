@@ -34,6 +34,8 @@ android {
 
 dependencies {
 
+    implementation("com.itextpdf:itext7-core:7.1.15")
+    implementation("com.github.yukuku:ambilwarna:2.0.1")
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
