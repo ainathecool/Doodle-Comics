@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/challengevotebg"
-    tools:context=".VoteForArtist">
+    android:background="@drawable/challengevotebg">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <!-- Repeat the following structure for each artist -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/artist_avatar2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="85dp"
-        android:id="@+id/challenges"
-        android:layout_width="300dp"
-        android:layout_height="450dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:scrollbars="vertical" />
 
-</LinearLayout>
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/artist_image4"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <Button
+        android:id="@+id/voteButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist_avatar2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="VOTE!" />
+
+    <!-- ... Other artist ImageViews and Buttons ... -->
+
+    <TextView
+        android:id="@+id/nextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/artist_avatar2"
+        android:layout_marginTop="10dp"
+        android:text="NEXT PAGE ->"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

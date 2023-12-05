@@ -21,9 +21,8 @@ public class ComicChallenge extends AppCompatActivity {
         createChallengeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent for Create Challenge Page
-                // Example: Intent intent = new Intent(NewClassName.this, CreateChallengeActivity.class);
-                // startActivity(intent);
+                Intent intent = new Intent(ComicChallenge.this, CreateChallenge.class);
+                startActivity(intent);
             }
         });
 
