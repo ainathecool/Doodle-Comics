@@ -18,18 +18,23 @@
             android:background="@drawable/draweropen_icon" />
 
 
-    <TextView
+    <ImageButton
         android:layout_width="223dp"
         android:layout_height="121dp"
         android:layout_gravity="center"
         android:layout_marginTop="300dp"
-        android:background="@drawable/choosetemplate" />
+        android:background="@drawable/choosetemplate"
+        android:id="@+id/myButton"
+        android:padding="0dp" />
 
-    <TextView
+
+    <ImageButton
         android:layout_width="223dp"
         android:layout_height="121dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:background="@drawable/createtemplate" />
+        android:background="@drawable/createtemplate"
+        android:id="@+id/myButton2"
+        android:padding="0dp" />
 
 </LinearLayout>

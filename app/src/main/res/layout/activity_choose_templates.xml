@@ -1,51 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/templates_bg"
     tools:context=".ChooseTemplates">
 
+    <!-- TextView for the drawer icon -->
     <TextView
         android:id="@+id/homepageDrawer"
         android:layout_width="37dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/draweropen_icon" />
 
-    <LinearLayout
+    <!-- GridLayout for template selection images -->
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="380dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginBottom="5dp"
-        android:orientation="horizontal">
+        android:layout_height="195dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100000dp"
+        android:alignmentMode="alignMargins"
+        android:background="@android:color/transparent"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginTop="10dp"
-            android:id="@+id/sharedComicsCol01"
-            android:layout_width="160dp"
-            android:layout_height="250dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:padding="8dp"
-            android:scrollbars="vertical" />
+        <!-- FrameLayout for the first image -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@android:color/holo_blue_light"> <!-- This is the blue background -->
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginTop="10dp"
-            android:id="@+id/sharedComicsCol02"
-            android:layout_width="160dp"
-            android:layout_height="250dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:padding="8dp"
-            android:scrollbars="vertical" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageTemplate1"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/template1" />
+
+        <!-- FrameLayout for the second image -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@android:color/holo_blue_light">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageTemplate2"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/template2" />
+
+        <!-- FrameLayout for the third image -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@android:color/holo_blue_light">
+
+        </FrameLayout>
+
+        <!-- FrameLayout for the fourth image -->
+
+        <ImageView
+            android:id="@+id/imageTemplate3"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/template3" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="@android:color/holo_blue_light">
+
+        </FrameLayout>
+
+        <ImageView
+
+            android:id="@+id/imageTemplate4"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="2dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/template4" />
 
 
-
-    </LinearLayout>
-
-</LinearLayout>
+    </GridLayout>
+</RelativeLayout>
