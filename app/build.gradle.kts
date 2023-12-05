@@ -38,7 +38,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.core:core-ktx:1.7.0")
     implementation("androidx.fragment:fragment-ktx:1.4.0")
     implementation("androidx.activity:activity-ktx:1.4.0")
@@ -46,8 +45,8 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.2")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
-
-
+    implementation("com.itextpdf:itext7-core:7.1.15")
+    implementation("com.github.yukuku:ambilwarna:2.0.1")
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

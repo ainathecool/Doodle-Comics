@@ -14,7 +14,7 @@
         android:hint="@string/username"
         android:paddingStart="20dp"
         android:layout_gravity="center"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="200dp"
         android:layout_width="270dp"
         android:layout_height="50dp"
         android:background="@drawable/textfieldbg"/>
@@ -47,12 +47,30 @@
         android:layout_width="270dp"
         android:layout_height="50dp"
         android:background="@drawable/textfieldbg"/>
+    <EditText
+        android:id="@+id/bio"
+        android:hint="@string/bio"
+        android:paddingStart="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textfieldbg"/>
+    <EditText
+        android:id="@+id/socialMedia"
+        android:hint="@string/social"
+        android:paddingStart="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textfieldbg"/>
 
     <TextView
-        android:id="@+id/createComic"
+        android:id="@+id/updateProfile"
         android:layout_width="180dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:text="@string/update"
         android:layout_marginBottom="20dp"
